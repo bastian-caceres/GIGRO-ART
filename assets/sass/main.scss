@@ -1,0 +1,17 @@
+// variables
+@import 'abstracts/variables';
+
+// bootstrap
+@import './vendors/bootstrap-4.5.2/scss/bootstrap.scss';
+
+// base
+@import './base/reset';
+@import './base/typography';
+
+// layout
+@import './layout/navigation';
+@import './layout/header';
+@import './layout/footer';
+
+
+
