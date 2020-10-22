@@ -2,8 +2,7 @@
 // @import 'abstracts/variables';
 @import 'abstracts/mixins';
 
-// bootstrap
-@import './vendors/bootstrap-4.5.2/scss/bootstrap.scss';
+
 
 // base
 @import './base/reset';
@@ -13,8 +12,11 @@
 @import './layout/navigation';
 @import './layout/header';
 @import './layout/seccionYuki';
+@import './layout/grid';
 
-@import './layout/footer';
+
+// bootstrap
+@import './vendors/bootstrap-4.5.2/scss/bootstrap.scss';
 
 
 
