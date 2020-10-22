@@ -1,5 +1,6 @@
 // variables
-@import 'abstracts/variables';
+// @import 'abstracts/variables';
+@import 'abstracts/mixins';
 
 // bootstrap
 @import './vendors/bootstrap-4.5.2/scss/bootstrap.scss';
@@ -11,6 +12,8 @@
 // layout
 @import './layout/navigation';
 @import './layout/header';
+@import './layout/seccionYuki';
+
 @import './layout/footer';
 
 
