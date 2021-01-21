@@ -19,7 +19,7 @@
     <!-- barra de navegacion -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light ">
         <div class="container">
-            <a class="navbar-brand textonav" href="#">GIGEO <sup> ART </sup></a>
+            <h1>GIGEO<sup> ART </sup></h1>
 
             <!-- menu movil -->
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
@@ -44,33 +44,31 @@
     <header></header>
 
     <!-- seccion yuki -->
-    <section class="container sectionYuki ">
-        <div class="card sinborde">
-            <div class="row">
+    <section class="sectionYuki ">
 
-                <div class="col-3 col-sm-3 col-md-2 col-lg-2">
-                    <img src="./assets/img/profile-image.png" class=" rounded-circle" alt="...">
-                </div>
+        <div class="flexContainer d-flex flex-row flex-wrap text-center">
 
-                <div class="col-9 col-sm-9 col-md-4 col-lg-5">
-                    <div class="card-body text-left">
-                        <h5 class="card-title">Yuki Mukami <br><small>30.000 Seguidores</small></h5>
-                    </div>
-                </div>
-
-                <div class="col-12 col-sm-12 col-md-6 col-lg-5 d-none d-md-block">
-                    <div class="card-body text-right">
-                        <button class="btn-info p-2">Mensaje</button>
-                        <button class="btn-danger p-2 px-3">Seguir</button>
-                    </div>
-                </div>
-
+            <div class="flexItems col-12 col-sm-12 col-md-2 col-lg-2 col-xl-2 d-flex align-items-center justify-content-end">
+                <img src="./assets/img/profile-image.png" class="rounded-circle" alt="foto profile">
             </div>
+            <div class="flexItems col-12 col-sm-12 col-md-2 col-lg-2 col-xl-2 d-flex align-items-center">
+                <h5>Yuki Mukami <br> <small>30.000 Seguidores</small> </h5>
+            </div>
+            <div class="flexItems col-12 col-sm-12 col-md-8 col-lg-8 col-xl-8 d-flex align-items-center justify-content-end">
+                <button class="btn btn-info px-1 mx-2">Mensaje</button>
+                <button class="btn btn-danger px-2 mr-5">Seguir</button> 
+            </div>
+
         </div>
+
+        
+        
+               
     </section>
     <hr>
+
     <!-- seccion fotos -->
-    <section class="container my-5" id="trabajos">
+    <section class="container" id="trabajos">
         <h1 class="mb-4">Videos populares</h1>
 
         <div class="row row-cols-1 row-cols-sm-1 row-cols-md-2 row-cols-lg-4 row-cols-xl-4">
