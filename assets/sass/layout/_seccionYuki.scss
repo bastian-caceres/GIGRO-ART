@@ -1,12 +1,27 @@
 .sectionYuki{
-    // border-bottom: 1px solid black;
-    .sinborde{
-        padding-top: 20px;
-        border: 0px solid ;       
-    }
+    .flexContainer{
+        // border: 1px solid black;
+        width: 100%;
+        line-height: 50px;
 
-    img{
-        width: 100px;
-        height: 100px;
-    }
+        .flexItems{
+            width: 200px;
+            height: 100px;        
+
+            img{
+                width: 70px;
+                height: 70px;
+            } 
+        }
+        
+
+        
+    }  
+
+    // .sinborde{
+    //     border: 0px solid ;       
+    // }
+
+    
 }
+
